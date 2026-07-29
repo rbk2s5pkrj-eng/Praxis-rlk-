@@ -1,18 +1,14 @@
 # Gemeinschaftspraxis Renst, Lübbel & Köhlmann
 
-Eine ruhige, responsive Beispielwebsite für eine vollständig fiktive Hausarztpraxis. Die Seite besteht ausschließlich aus HTML, CSS, lokalen SVG-Porträts und einer kleinen Menge JavaScript – es ist kein Build-Schritt nötig.
+Eine moderne, responsive Beispielwebsite für eine vollständig fiktive Hausarztpraxis. Die Seite besteht ausschließlich aus HTML, CSS, lokalen SVG-Illustrationen und einer kleinen Menge JavaScript – es ist kein Build-Schritt nötig.
 
-## Seitenstruktur
+## Inhalte
 
-- `index.html`: kompakte Portal-Startseite mit den wichtigsten Einstiegen
-- `praxis.html`: Praxisprofil und Sprechzeiten
-- `team.html`: ärztliches Team sowie Praxisorganisation und medizinische Assistenz
-- `leistungen.html`: hausärztliches Leistungsverzeichnis
-- `kontakt.html`: Patienten- und Fachkontakt sowie datensparsame Kartenvorschau
-- `infomaterial.html`: 19 ausführliche, filterbare und für DIN A4 optimierte Informationsbögen
-- `impressum.html` und `datenschutz.html`: klar gekennzeichnete rechtliche Musterseiten
-
-Die Website nutzt Systemschriften und lokale Medien. Sie enthält keine Analyse- oder Marketingdienste. Google Maps wird nicht automatisch geladen.
+- Startseite mit ärztlichem Team, MFA-Team, hausärztlichem Leistungsverzeichnis, Sprechzeiten und getrennten Kontaktwegen für Patient:innen und medizinische Einrichtungen
+- datensparsame Kartenvorschau, die Google Maps nicht ungefragt lädt
+- 20 allgemein gehaltene, filterbare und druckoptimierte Informationsbögen
+- eigenständige Musterseiten für Impressum und Datenschutz
+- lokale Systemschriften und lokale Medien ohne Analyse- oder Marketingdienste
 
 ## Lokal öffnen
 
