@@ -3,22 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta
-      name="description"
-      content="Gemeinschaftspraxis RLK – fiktive Hausarztpraxis in Münster."
-    />
-    <title>Gemeinschaftspraxis RLK · Münster</title>
+    <meta name="description" content="Fiktive Hausarztpraxis in Münster" />
+    <title>Gemeinschaftspraxis RLK · Praxis RLK</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <a class="skip-link" href="#main-content">Zum Inhalt springen</a>
     <div class="demo-bar">
-      Fiktive Praxis · Alle Personen, Kontaktdaten und Inhalte dienen
-      ausschließlich der Demonstration.
+      Fiktive Praxis · Alle Angaben und Personen dienen ausschließlich der
+      Demonstration.
     </div>
-    <header class="site-header" id="start">
+    <header class="site-header">
       <div class="container header-inner">
-        <a class="brand" href="#start" aria-label="Zur Startseite"
+        <a class="brand" href="index.html" aria-label="Zur Startseite"
           ><svg class="logo" viewBox="0 0 52 52" aria-hidden="true">
             <path d="M10 27c8-15 24-15 32 0-8 15-24 15-32 0Z" />
             <path d="M17 27h6l3-7 4 14 3-7h5" /></svg
@@ -26,8 +23,7 @@
             ><strong>Gemeinschaftspraxis</strong
             ><small>Renst · Lübbel · Köhlmann</small></span
           ></a
-        >
-        <button
+        ><button
           class="menu-toggle"
           type="button"
           aria-expanded="false"
@@ -37,17 +33,17 @@
           ><span class="sr-only">Menü öffnen</span>
         </button>
         <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
-          <a href="#praxis">Praxis</a><a href="#team">Team</a
-          ><a href="#leistungen">Leistungen</a
+          <a href="praxis.html">Praxis</a><a href="team.html">Team</a
+          ><a href="leistungen.html">Leistungen</a
           ><a href="infomaterial.html">Infomaterial</a
-          ><a href="#zeiten">Sprechzeiten</a><a href="#kontakt">Kontakt</a>
+          ><a href="kontakt.html">Kontakt</a>
         </nav>
       </div>
     </header>
     <main id="main-content">
-      <section class="hero" id="praxis">
-        <div class="container hero-grid">
-          <div class="hero-copy">
+      <section class="landing">
+        <div class="container landing-grid">
+          <div>
             <span class="eyebrow">Hausärztliche Versorgung in Münster</span>
             <h1>Medizin, die <em>zuhört.</em></h1>
             <p class="lead">
@@ -55,386 +51,57 @@
               da – in jeder Lebensphase.
             </p>
             <div class="hero-actions">
-              <a class="button" href="#kontakt">Termin anfragen</a
+              <a class="button" href="kontakt.html">Kontakt & Anfahrt</a
               ><a class="text-link" href="infomaterial.html"
-                >Infomaterial ansehen →</a
+                >Infomaterial öffnen →</a
               >
             </div>
-            <div class="trust-row">
-              <span>✓ Akutsprechstunde</span><span>✓ Barrierearme Praxis</span
-              ><span>✓ Digitale Patienteninfos</span>
-            </div>
           </div>
-          <div class="hero-art" aria-hidden="true">
-            <div class="hero-circle"></div>
-            <svg viewBox="0 0 500 430">
-              <path
-                d="M70 360V166c0-25 20-45 45-45h270c25 0 45 20 45 45v194"
-                fill="#fff"
-              />
-              <path
-                d="M120 320h260M155 320V190h190v130"
-                fill="none"
-                stroke="#9ec9bf"
-                stroke-width="14"
-              />
-              <path
-                d="M250 210v95M203 257h94"
-                stroke="#e77961"
-                stroke-width="24"
-                stroke-linecap="round"
-              />
-              <path
-                d="M90 360h320"
-                stroke="#214d48"
-                stroke-width="12"
-                stroke-linecap="round"
-              /></svg
-            ><span class="hero-note"
-              ><b>Gut vorbereitet</b
-              ><small>Infos für Ihren Praxisbesuch</small></span
+          <div class="landing-panel">
+            <span>Heute für Sie da</span
+            ><strong>Akutsprechstunde<br />08:00–09:00 Uhr</strong
+            ><small
+              >Bitte melden Sie sich nach Möglichkeit telefonisch an.</small
             >
           </div>
         </div>
-        <div class="container quick-info">
-          <div>
-            <span>◷</span>
-            <p>
-              <small>Akutsprechstunde</small
-              ><strong>Täglich 08:00–09:00 Uhr</strong>
-            </p>
-          </div>
-          <div>
-            <span>⌖</span>
-            <p>
-              <small>Fiktive Demoanschrift</small
-              ><strong>Lindenbogen 18 · 48147 Münster</strong>
-            </p>
-          </div>
-          <div>
-            <span>☎</span>
-            <p><small>Praxisempfang</small><strong>0251 000 00 00</strong></p>
-          </div>
-        </div>
       </section>
-
-      <section class="section team-section" id="team">
+      <section class="portal-section">
         <div class="container">
-          <div class="section-heading">
-            <div>
-              <span class="eyebrow">Menschen in der Praxis</span>
-              <h2>Ein Team. Viele Perspektiven.</h2>
-            </div>
-            <p>
-              Ärztliche Erfahrung, qualifizierte Assistenz und gute Organisation
-              greifen bei uns ineinander.
-            </p>
-          </div>
-          <h3 class="group-title">
-            Ärztliches Team <span>Diagnostik · Therapie · Vorsorge</span>
-          </h3>
-          <div class="team-grid doctors">
-            <article class="person-card">
-              <img
-                src="assets/team/anna.svg"
-                alt="Illustratives Porträt von Dr. Anna Renst"
-              />
-              <div>
-                <p>Allgemeinmedizin</p>
-                <h3>Dr. med. Anna Renst</h3>
-                <span>Familienmedizin & hausärztliche Versorgung</span>
-              </div>
-            </article>
-            <article class="person-card">
-              <img
-                src="assets/team/jonas.svg"
-                alt="Illustratives Porträt von Dr. Jonas Lübbel"
-              />
-              <div>
-                <p>Innere Medizin</p>
-                <h3>Dr. med. Jonas Lübbel</h3>
-                <span>Internistische Diagnostik & Chronikerbetreuung</span>
-              </div>
-            </article>
-            <article class="person-card">
-              <img
-                src="assets/team/marie.svg"
-                alt="Illustratives Porträt von Dr. Marie Köhlmann"
-              />
-              <div>
-                <p>Allgemeinmedizin</p>
-                <h3>Dr. med. Marie Köhlmann</h3>
-                <span>Prävention, Vorsorge & Impfmedizin</span>
-              </div>
-            </article>
-          </div>
-          <h3 class="group-title team-second">
-            Praxisorganisation & medizinische Assistenz
-            <span>Begleitung · Diagnostik · Koordination</span>
-          </h3>
-          <div class="team-grid assistants">
-            <article class="person-card">
-              <img
-                src="assets/team/nina.svg"
-                alt="Illustratives Porträt von Nina Hartmann"
-              />
-              <div>
-                <p>Praxismanagement</p>
-                <h3>Nina Hartmann</h3>
-                <span>Leitende MFA · Qualitätsmanagement</span>
-              </div>
-            </article>
-            <article class="person-card">
-              <img
-                src="assets/team/selin.svg"
-                alt="Illustratives Porträt von Selin Aydin"
-              />
-              <div>
-                <p>Versorgungsassistenz</p>
-                <h3>Selin Aydin</h3>
-                <span>MFA · VERAH/NäPA</span>
-              </div>
-            </article>
-            <article class="person-card">
-              <img
-                src="assets/team/leonie.svg"
-                alt="Illustratives Porträt von Leonie Bergmann"
-              />
-              <div>
-                <p>Funktionsdiagnostik</p>
-                <h3>Leonie Bergmann</h3>
-                <span>MFA · Labor & Impfmanagement</span>
-              </div>
-            </article>
-          </div>
-          <p class="image-disclaimer">
-            Alle Namen und Porträts sind fiktive, illustrative Darstellungen
-            dieses Demoprojekts.
-          </p>
-        </div>
-      </section>
-
-      <section class="section services-section" id="leistungen">
-        <div class="container">
-          <div class="section-heading">
-            <div>
-              <span class="eyebrow">Leistungsspektrum</span>
-              <h2>Hausärztlich gut versorgt.</h2>
-            </div>
-            <p>
-              Welche Untersuchung im Einzelfall sinnvoll ist, klären wir im
-              persönlichen Gespräch.
-            </p>
-          </div>
-          <div class="services-grid">
-            <article>
-              <i>01</i><b>Hausärztliche Grundversorgung</b>
-              <p>
-                Akute Beschwerden, Beratung, Befundbesprechung und koordinierte
-                Weiterbehandlung.
-              </p>
-            </article>
-            <article>
-              <i>02</i><b>Vorsorge & Check-up</b>
-              <p>
-                Gesundheitsuntersuchungen, Hautkrebsscreening und individuelle
-                Präventionsberatung.
-              </p>
-            </article>
-            <article>
-              <i>03</i><b>Diagnostik</b>
-              <p>
-                Labor, Ruhe- und Langzeit-EKG, Langzeitblutdruck, Lungenfunktion
-                und Ultraschall.
-              </p>
-            </article>
-            <article>
-              <i>04</i><b>Impfmedizin</b>
-              <p>
-                Impfstatuskontrolle, Standard- und Indikationsimpfungen sowie
-                Reiseberatung.
-              </p>
-            </article>
-            <article>
-              <i>05</i><b>Chronische Erkrankungen</b>
-              <p>
-                DMP und kontinuierliche Begleitung unter anderem bei Diabetes,
-                KHK, Asthma und COPD.
-              </p>
-            </article>
-            <article>
-              <i>06</i><b>Wundversorgung</b>
-              <p>
-                Verbandswechsel, kleine chirurgische Versorgung und
-                postoperative Kontrollen.
-              </p>
-            </article>
-            <article>
-              <i>07</i><b>Geriatrie & Hausbesuche</b>
-              <p>
-                Basisassessment und Hausbesuche nach medizinischer Indikation.
-              </p>
-            </article>
-            <article>
-              <i>08</i><b>Psychosomatische Grundversorgung</b>
-              <p>
-                Erste Einordnung körperlicher und seelischer Wechselwirkungen.
-              </p>
-            </article>
-            <article>
-              <i>09</i><b>Atteste & Untersuchungen</b>
-              <p>
-                Jugendarbeitsschutzuntersuchungen, Verordnungen, Überweisungen
-                und ausgewählte Atteste.
-              </p>
-            </article>
-          </div>
-          <p class="fineprint">
-            Leistungsumfang und Kostenübernahme richten sich nach medizinischer
-            Indikation und Versicherungsstatus. Reisemedizin und bestimmte
-            Atteste können Selbstzahlerleistungen sein.
-          </p>
-        </div>
-      </section>
-
-      <section class="material-teaser">
-        <div class="container teaser-grid">
-          <div>
-            <span class="eyebrow light">Wissen für zu Hause</span>
-            <h2>Gut informiert – auch nach dem Termin.</h2>
-            <p>
-              Druckbare, verständliche Bögen helfen bei Vorbereitung, Messungen,
-              Übungen und dem Umgang mit Hilfsmitteln.
-            </p>
-            <a class="button button-light" href="infomaterial.html"
-              >Alle 20 Infobögen öffnen →</a
+          <p class="portal-intro">Womit können wir Ihnen weiterhelfen?</p>
+          <nav class="portal-grid" aria-label="Praxisbereiche">
+            <a href="praxis.html"
+              ><span>01</span>
+              <h2>Die Praxis</h2>
+              <p>Sprechzeiten, Haltung und Ablauf</p>
+              <b>Mehr erfahren →</b></a
+            ><a href="team.html"
+              ><span>02</span>
+              <h2>Unser Team</h2>
+              <p>Ärzt:innen und medizinische Assistenz</p>
+              <b>Team ansehen →</b></a
+            ><a href="leistungen.html"
+              ><span>03</span>
+              <h2>Leistungen</h2>
+              <p>Hausärztliche Diagnostik und Versorgung</p>
+              <b>Übersicht öffnen →</b></a
+            ><a href="infomaterial.html"
+              ><span>04</span>
+              <h2>Infomaterial</h2>
+              <p>Ausführliche Bögen zum Lesen und Drucken</p>
+              <b>Material öffnen →</b></a
+            ><a href="kontakt.html"
+              ><span>05</span>
+              <h2>Kontakt</h2>
+              <p>Anfahrt und Kontaktwege für Patient:innen</p>
+              <b>Kontakt öffnen →</b></a
+            ><a href="kontakt.html#fachpersonal"
+              ><span>06</span>
+              <h2>Für Fachpersonal</h2>
+              <p>KIM und gesonderte Praxisdurchwahl</p>
+              <b>Kontaktwege →</b></a
             >
-          </div>
-          <div class="paper-stack">
-            <article>
-              <span>01</span><b>Blutdruck richtig messen</b
-              ><small>Schritt für Schritt</small>
-            </article>
-            <article>
-              <span>02</span><b>Inhalatoren anwenden</b
-              ><small>Dosieraerosol & Pulver</small>
-            </article>
-            <article>
-              <span>03</span><b>Zum ersten Termin</b
-              ><small>Anamnese & Checkliste</small>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section hours-section" id="zeiten">
-        <div class="container hours-grid">
-          <div>
-            <span class="eyebrow light">Sprechzeiten</span>
-            <h2>Wir nehmen uns Zeit.</h2>
-            <p>
-              Bitte vereinbaren Sie möglichst vorab einen Termin. Akute
-              Beschwerden werden täglich gesondert eingeplant.
-            </p>
-          </div>
-          <div class="hours-card">
-            <div><span>Montag</span><b>08–12 · 14–18 Uhr</b></div>
-            <div><span>Dienstag</span><b>08–12 · 14–18 Uhr</b></div>
-            <div><span>Mittwoch</span><b>08–13 Uhr</b></div>
-            <div><span>Donnerstag</span><b>08–12 · 14–18 Uhr</b></div>
-            <div><span>Freitag</span><b>08–13 Uhr</b></div>
-            <p>Akutsprechstunde täglich 08:00–09:00 Uhr</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="section contact-section" id="kontakt">
-        <div class="container">
-          <div class="section-heading">
-            <div>
-              <span class="eyebrow">Kontakt & Anfahrt</span>
-              <h2>So erreichen Sie uns.</h2>
-            </div>
-            <p>
-              Alle Angaben sind fiktiv und nicht für eine echte Kontaktaufnahme
-              vorgesehen.
-            </p>
-          </div>
-          <div class="contact-grid">
-            <div class="contact-details">
-              <a href="tel:+492510000000"
-                ><span>☎</span>
-                <p><small>Telefon</small><b>0251 000 00 00</b></p></a
-              ><a href="mailto:info@example.invalid"
-                ><span>✉</span>
-                <p>
-                  <small>E-Mail · keine medizinischen Daten</small
-                  ><b>info@praxis-rlk.example</b>
-                </p></a
-              >
-              <div>
-                <span>⌖</span>
-                <p>
-                  <small>Fiktive Anschrift</small
-                  ><b>Lindenbogen 18<br />48147 Münster</b>
-                </p>
-              </div>
-              <aside>
-                <b>Barrierearm erreichbar</b>
-                <p>Stufenloser Zugang, Aufzug und reservierte Stellplätze.</p>
-              </aside>
-            </div>
-            <div class="map-consent">
-              <div class="map-drawing" aria-hidden="true">
-                <span class="pin">+</span>
-              </div>
-              <div class="map-copy">
-                <span class="eyebrow">Externer Karteninhalt</span>
-                <h3>Google Maps erst nach Klick</h3>
-                <p>
-                  Beim Aktivieren wird eine Verbindung zu Google hergestellt. Da
-                  die Anschrift fiktiv ist, öffnet die Demo nur eine allgemeine
-                  Kartenansicht von Münster.
-                </p>
-                <button class="button" id="map-activate" type="button">
-                  Karte aktivieren</button
-                ><a
-                  class="text-link"
-                  href="https://www.google.com/maps/search/?api=1&query=M%C3%BCnster"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Direkt bei Google Maps öffnen ↗</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="professional-contact">
-            <div>
-              <span class="eyebrow light">Für medizinische Einrichtungen</span>
-              <h2>Direkter Draht für Fachpersonal.</h2>
-              <p>
-                Befunde gehören in sichere Kommunikationswege – nicht in eine
-                gewöhnliche E-Mail.
-              </p>
-            </div>
-            <div class="pro-options">
-              <article>
-                <b>KIM · sicherer Befundweg</b>
-                <p>praxis-rlk@demo.kim.example</p>
-                <small>Nicht funktionsfähige Demo-Adresse</small>
-              </article>
-              <article>
-                <b>Fachkreis-Durchwahl</b>
-                <p>0251 000 00 20</p>
-                <small>Werktags 08:00–12:00 Uhr</small>
-              </article>
-              <article>
-                <b>Organisation</b>
-                <p>fachkontakt@praxis-rlk.example</p>
-                <small>Keine Befunde oder Gesundheitsdaten</small>
-              </article>
-            </div>
-          </div>
+          </nav>
         </div>
       </section>
       <aside class="emergency">
@@ -449,8 +116,8 @@
     </main>
     <footer class="site-footer">
       <div class="container footer-main">
-        <a class="brand" href="#start"
-          ><svg class="logo" viewBox="0 0 52 52">
+        <a class="brand" href="index.html" aria-label="Zur Startseite"
+          ><svg class="logo" viewBox="0 0 52 52" aria-hidden="true">
             <path d="M10 27c8-15 24-15 32 0-8 15-24 15-32 0Z" />
             <path d="M17 27h6l3-7 4 14 3-7h5" /></svg
           ><span
@@ -461,8 +128,7 @@
         <p>Hausärztliche Medizin – persönlich, modern und nah.</p>
         <nav>
           <a href="impressum.html">Impressum</a
-          ><a href="datenschutz.html">Datenschutz</a
-          ><a href="infomaterial.html">Infomaterial</a>
+          ><a href="datenschutz.html">Datenschutz</a>
         </nav>
       </div>
       <div class="container footer-bottom">
