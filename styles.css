@@ -320,6 +320,16 @@ h2 {
   grid-template-columns: repeat(3, 1fr);
   gap: 22px;
 }
+.team-grid.doctors {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.team-grid.doctors .person-card {
+  flex: 1 1 calc((100% - 44px) / 3);
+  min-width: 0;
+}
 .person-card {
   overflow: hidden;
   background: #fff;
@@ -330,6 +340,7 @@ h2 {
   width: 100%;
   height: 330px;
   object-fit: cover;
+  object-position: center 20%;
   background: #d8e9e4;
 }
 .person-card > div {
@@ -673,24 +684,6 @@ h2 {
   color: var(--muted);
   font-size: 0.8rem;
 }
-.library-toolbar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 35px;
-}
-.filter-button {
-  padding: 9px 14px;
-  border: 1px solid var(--line);
-  border-radius: 99px;
-  background: #fff;
-  color: var(--ink);
-  cursor: pointer;
-}
-.filter-button.active {
-  color: #fff;
-  background: var(--green);
-}
 .material-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -821,6 +814,9 @@ h2 {
   .material-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .team-grid.doctors .person-card {
+    flex-basis: calc((100% - 22px) / 2);
+  }
   .teaser-grid,
   .hours-grid {
     gap: 50px;
@@ -863,6 +859,9 @@ h2 {
   .services-grid,
   .material-grid {
     grid-template-columns: 1fr;
+  }
+  .team-grid.doctors .person-card {
+    flex-basis: 100%;
   }
   .quick-info > div {
     border-right: 0;
